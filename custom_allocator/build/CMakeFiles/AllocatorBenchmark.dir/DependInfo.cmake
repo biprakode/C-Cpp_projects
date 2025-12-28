@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/benchmark.cpp" "CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.o" "gcc" "CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.o.d"
   "/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/main.cpp" "CMakeFiles/AllocatorBenchmark.dir/main.cpp.o" "gcc" "CMakeFiles/AllocatorBenchmark.dir/main.cpp.o.d"
+  "/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/pool_allocator.cpp" "CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o" "gcc" "CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o.d"
   "/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/stack_allocator.cpp" "CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o" "gcc" "CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o.d"
   "" "AllocatorBenchmark" "gcc" "CMakeFiles/AllocatorBenchmark.dir/link.d"
   )

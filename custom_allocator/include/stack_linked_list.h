@@ -6,7 +6,7 @@ class Stack_Linked_List {
 public:
     struct Node {
         T data;
-        Node *next
+        Node *next;
     };
 
     Node *head;
@@ -19,6 +19,9 @@ public:
         head = newNode;
     }
     Node* pop() {
+        if (head == nullptr) {
+            return nullptr; // Return null instead of crashing
+        }
         Node *temp = head;
         head = head->next;
         return temp;

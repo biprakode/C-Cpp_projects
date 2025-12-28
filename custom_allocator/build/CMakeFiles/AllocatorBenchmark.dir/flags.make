@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include
 
-CXX_FLAGS = -std=gnu++17 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
 

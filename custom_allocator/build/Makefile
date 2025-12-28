@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pool_allocator.o: pool_allocator.cpp.o
+.PHONY : pool_allocator.o
+
+# target to build an object file
+pool_allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o
+.PHONY : pool_allocator.cpp.o
+
+pool_allocator.i: pool_allocator.cpp.i
+.PHONY : pool_allocator.i
+
+# target to preprocess a source file
+pool_allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.i
+.PHONY : pool_allocator.cpp.i
+
+pool_allocator.s: pool_allocator.cpp.s
+.PHONY : pool_allocator.s
+
+# target to generate assembly for a file
+pool_allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.s
+.PHONY : pool_allocator.cpp.s
+
 stack_allocator.o: stack_allocator.cpp.o
 .PHONY : stack_allocator.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pool_allocator.o"
+	@echo "... pool_allocator.i"
+	@echo "... pool_allocator.s"
 	@echo "... stack_allocator.o"
 	@echo "... stack_allocator.i"
 	@echo "... stack_allocator.s"

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.o.d"
   "CMakeFiles/AllocatorBenchmark.dir/main.cpp.o"
   "CMakeFiles/AllocatorBenchmark.dir/main.cpp.o.d"
+  "CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o"
+  "CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o.d"
   "CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o"
   "CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o.d"
 )

@@ -15,6 +15,7 @@ set(SOURCES
     main.cpp
     benchmark.cpp
     stack_allocator.cpp
+    pool_allocator.cpp
 )
 
 # 4. Create the executable

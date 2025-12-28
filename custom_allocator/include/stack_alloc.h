@@ -17,12 +17,6 @@ public:
     void DeAlloc(void *ptr) override;
     void Reset();
 
-    template<typename T>
-    T* New(size_t count = 1) {
-        void *ptr = Alloc(sizeof(T) * count, alignof(T));
-        return static_cast<T*>(ptr);
-    }
-
 private:
     struct AllocationHead {
         size_t padding;
