@@ -6,6 +6,7 @@ AllocatorBenchmark: \
   CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.o \
   CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o \
   CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o \
+  CMakeFiles/AllocatorBenchmark.dir/c_allocator.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -47,6 +48,8 @@ CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.o:
 CMakeFiles/AllocatorBenchmark.dir/stack_allocator.cpp.o:
 
 CMakeFiles/AllocatorBenchmark.dir/pool_allocator.cpp.o:
+
+CMakeFiles/AllocatorBenchmark.dir/c_allocator.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 

@@ -160,4 +160,6 @@ CMakeFiles/AllocatorBenchmark.dir/main.cpp.o: \
  /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/allocator.h \
  /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/stack_alloc.h \
  /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/pool_alloc.h \
- /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/stack_linked_list.h
+ /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/stack_linked_list.h \
+ /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/include/c_alloc.h \
+ /usr/include/c++/15/stdlib.h

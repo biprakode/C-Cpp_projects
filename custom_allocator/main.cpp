@@ -24,7 +24,7 @@ int main() {
     Allocator *cAllocator = new CAllocator();
     Benchmark benchmark(NUM_OPERATIONS);
 
-    st::cout << "C" << std::endl;
+    std::cout << "C" << std::endl;
     benchmark.MultipleAlloc(cAllocator, ALLOCATION_SIZES);
     benchmark.MultipleDealloc(cAllocator, ALLOCATION_SIZES);
     benchmark.RandomAlloc(cAllocator, ALLOCATION_SIZES);

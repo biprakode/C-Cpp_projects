@@ -153,6 +153,30 @@ benchmark.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
+c_allocator.o: c_allocator.cpp.o
+.PHONY : c_allocator.o
+
+# target to build an object file
+c_allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/c_allocator.cpp.o
+.PHONY : c_allocator.cpp.o
+
+c_allocator.i: c_allocator.cpp.i
+.PHONY : c_allocator.i
+
+# target to preprocess a source file
+c_allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/c_allocator.cpp.i
+.PHONY : c_allocator.cpp.i
+
+c_allocator.s: c_allocator.cpp.s
+.PHONY : c_allocator.s
+
+# target to generate assembly for a file
+c_allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/c_allocator.cpp.s
+.PHONY : c_allocator.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... benchmark.o"
 	@echo "... benchmark.i"
 	@echo "... benchmark.s"
+	@echo "... c_allocator.o"
+	@echo "... c_allocator.i"
+	@echo "... c_allocator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

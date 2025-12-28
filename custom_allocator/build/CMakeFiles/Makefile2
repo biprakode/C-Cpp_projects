@@ -85,12 +85,12 @@ clean: CMakeFiles/AllocatorBenchmark.dir/clean
 CMakeFiles/AllocatorBenchmark.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target AllocatorBenchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target AllocatorBenchmark"
 .PHONY : CMakeFiles/AllocatorBenchmark.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AllocatorBenchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AllocatorBenchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles 0
 .PHONY : CMakeFiles/AllocatorBenchmark.dir/rule
@@ -102,7 +102,7 @@ AllocatorBenchmark: CMakeFiles/AllocatorBenchmark.dir/rule
 # codegen rule for target.
 CMakeFiles/AllocatorBenchmark.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AllocatorBenchmark.dir/build.make CMakeFiles/AllocatorBenchmark.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target AllocatorBenchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/biprarshi/COMMON/files/C-Cpp_projects/custom_allocator/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target AllocatorBenchmark"
 .PHONY : CMakeFiles/AllocatorBenchmark.dir/codegen
 
 # clean rule for target.
