@@ -9,6 +9,10 @@
 using namespace std;
 
 StackAllocator::StackAllocator(const size_t total_size) : Allocator(total_size) {
+    Init(total_size);
+}
+
+void StackAllocator::Init(const size_t total_size){
     if(start != nullptr) {
         free(start);
     }
@@ -25,7 +29,7 @@ void *StackAllocator::Alloc(const size_t size , const size_t alignment) {
     const size_t cur_adr = (size_t)start + offset;
     const size_t padding = Padder::calculate_padding_header(cur_adr , alignment , sizeof(AllocationHead));
     
-    if(offset + padding + alignment > total_size) {
+    if(offset + padding + size > total_size) {
         throw std::out_of_range("Arena exhausted");
     }
     offset += padding;
@@ -50,11 +54,10 @@ void StackAllocator::DeAlloc(void *ptr) {
 
     offset = current_adr - alloc_head->padding - (size_t)start;
     used = offset;
-
 }
 
 void StackAllocator::Reset() {
     used = 0;
-    start = 0;
     offset = 0;
+    //start not touched (arena allocated)
 }

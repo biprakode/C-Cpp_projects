@@ -12,13 +12,20 @@ public:
     StackAllocator(const size_t total_size);
     ~StackAllocator();
 
-    void *Alloc(const size_t size , const size_t alignment = 0) override;
+    void Init(const size_t size) override;
+    void *Alloc(const size_t size, const size_t alignment = alignof(std::max_align_t)) override;
     void DeAlloc(void *ptr) override;
     void Reset();
 
+    template<typename T>
+    T* New(size_t count = 1) {
+        void *ptr = Alloc(sizeof(T) * count, alignof(T));
+        return static_cast<T*>(ptr);
+    }
+
 private:
     struct AllocationHead {
-        char padding;
+        size_t padding;
     };
 };
 
